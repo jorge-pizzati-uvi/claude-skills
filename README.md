@@ -12,7 +12,7 @@ Claude Code skills for sanservices projects, packaged as a plugin marketplace. O
 ## Install
 
 ```sh
-claude plugin marketplace add sanservices/claude-skills
+claude plugin marketplace add jorge-pizzati-uvi/claude-skills
 claude plugin install plasmic-skills@sanservices
 ```
 
