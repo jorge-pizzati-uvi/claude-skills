@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sanservices",
+  "description": "Internal Claude Code plugins for sanservices projects.",
+  "owner": {
+    "name": "sanservices",
+    "url": "https://github.com/sanservices"
+  },
+  "plugins": [
+    {
+      "name": "plasmic-skills",
+      "description": "Plasmic + Figma + Strapi skills: create-plasmic-component, fill-plasmic-page, figma-to-strapi.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "KC3IdQYGkJzD": { "name": "Sub Menu", "node": "7770:33973" },
+    "XdhJ0uj3a2rT": { "name": "Resort FAQs", "node": "7770:34016" },
+    "hAAw7pJH_TnD": { "name": "Content Card A Color List", "node": "7770:33992" },
+    "Dj4mVB_y5D-b": { "name": "Content Card B2", "node": "7770:34012" }
+  },
+  "writes": [
+    { "field": "8VtYc6L8Lq4R/text", "value": "Curaçao", "source": "figma:7770:33973" },
+    { "field": "Ej7oBq8EBArr/text", "value": "Resorts", "source": "figma:7770:33973" },
+
+    { "field": "TAp-nE9jy22Q/props.title", "value": "Curaçao FAQs", "source": "figma:I7770:34016;1026:14784" },
+    { "field": "TAp-nE9jy22Q/props.faqs", "source": "figma+copy-source", "value": [
+      { "question": "Does Curaçao have all-inclusive resorts?", "answer": "Yes. Sandals Royal Curaçao …" },
+      { "question": "Is Sandals all-inclusive resort in Curaçao adults-only?", "answer": "…" }
+    ] },
+
+    { "field": "1sRfVJTXY6mF/props.items", "source": "figma:7770:33995", "value": [
+      { "imageUrl": "{{asset:7770:33996:image}}", "imageAlt": "Convertible MINI Cooper", "title": "Convertible MINI Cooper",
+        "bodyCopy": "Enjoy complimentary use of a stylish MINI Cooper …", "pillCopy": "In select rooms",
+        "links": [ { "label": "View Qualifying Rooms", "href": "#", "target": "_self" } ] }
+    ] },
+
+    { "field": "EYdthF1D3haB/attr.src", "value": "{{asset:I7770:34012;8427:32647:image}}", "source": "figma:7770:34012" },
+    { "field": "e2apk7_PRbJa/text", "value": "Overwater Chapel", "source": "figma:I7770:34012;8341:56090" },
+    { "field": "0tAqHgjOhs-l/text", "value": "Take your first steps into forever on a glass aisle …", "source": "figma:I7770:34012;8341:56093", "overwrite": true }
+  ],
+  "inserts": [
+    { "section": "hAAw7pJH_TnD", "target": "LkAETTbhKzF1", "insertRelLoc": "append", "component": "slidersDestinationSlide", "count": 1,
+      "html": "<plasmic-component data-plasmic-component=\"slidersDestinationSlide\" data-plasmic-project=\"abaJcgvFQvdamCqLkinpTR\"><slot name=\"heading\">Willemstad</slot></plasmic-component>",
+      "source": "figma:7770:33991" }
+  ],
+  "assets": {
+    "7770:33996:image": "assets/experiences/curacao-experiences-01.png",
+    "I7770:34012;8427:32647:image": "assets/weddings/curacao-weddings-01.jpg"
+  },
+  "notes": [ "Hero is a placeholder div — needs create-plasmic-component before it can be filled." ]
+}

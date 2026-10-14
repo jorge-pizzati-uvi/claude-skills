@@ -1,0 +1,53 @@
+{
+  "text": [
+    "Title",
+    "Tag",
+    "TAG",
+    "Link",
+    "Enter some text",
+    "Body",
+    "Heading",
+    "Subtitle",
+    "Label",
+    "Button",
+    "Lorem ipsum",
+    "Placeholder",
+    "Text",
+    "Copy",
+    "Description",
+    "Slide title",
+    "Card title",
+    "Question",
+    "Answer",
+    "Supertitle",
+    "Title Body",
+    "Text Value",
+    "Destination"
+  ],
+  "textPatterns": [
+    "^lorem ipsum",
+    "placeholder",
+    "^enter (some )?text",
+    "^(new|sample) (card|slide|item|question)"
+  ],
+  "imagePatterns": [
+    "Component_Documentation_Image",
+    "placehold\\.co",
+    "^$",
+    "^data:",
+    "figma\\.com/api/mcp/asset",
+    "placeholder",
+    "destination_slider_sample"
+  ],
+  "labelPatterns": [
+    "PLACEHOLDER"
+  ],
+  "ignoreComponents": [
+    "Quickquote",
+    "quickquote",
+    "QuickquoteContext",
+    "StickyWrapper",
+    "plasmic-data-source-fetcher",
+    "hostless-plasmic-head"
+  ]
+}

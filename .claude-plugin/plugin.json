@@ -1,0 +1,11 @@
+{
+  "name": "plasmic-skills",
+  "version": "0.1.0",
+  "description": "Claude Code skills for the Plasmic + Figma + Strapi workflow: build a Plasmic component from a Figma node, fill a Plasmic page's content from a Figma frame, and move Figma assets into Strapi's Media Library.",
+  "author": {
+    "name": "sanservices",
+    "url": "https://github.com/sanservices"
+  },
+  "homepage": "https://github.com/sanservices/claude-skills",
+  "keywords": ["plasmic", "figma", "strapi", "design-to-code", "cms"]
+}
